@@ -72,7 +72,7 @@ source admin-openrc.sh
 nova service-list
 ```
 
-# Posible Problems
+# Possible Problem
 I do not recommand you write a script to run all the command above or use fig, because different services to start may take
 different time, you can not ensure the last service is running when you start current service. For example, if mysql
 service does not work, the keystone service may fail to start, you must ensure mysql is running before create a keystone
